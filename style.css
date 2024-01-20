@@ -40,14 +40,13 @@ header .banner_container .banner_content1 p {
 
 }
 header .banner_container .banner_content1 button {
-    padding: 20px 43px;
+    padding: 20px 32px;
     border-radius: 8px;
     background: #E55473;
     border: 0;
     color: #FFF;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 700;
-    /* margin-bottom: 70px; */
 
 }
 header .banner_container .banner_content2 img{
@@ -207,12 +206,12 @@ header .banner_container .banner_content2 img{
    
 }
 .hot_deal .hot_deal_container .hot_deal_container-descryption button {
-    padding: 20px 43px;
+    padding: 20px 32px;
     border-radius: 8px;
     background: #E55473;
     border: 0;
     color: #FFF;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 700;
 }
 .hot_deal .hot_deal_container .hot_deal_container-img{
@@ -227,7 +226,7 @@ header .banner_container .banner_content2 img{
 /* Instagram section styles  */
 .Instagram{
     width: 75%;
-    max-width: 1440px;
+    max-width:1080px;
     margin: 0 auto;
 }
 .Instagram .Instagram_container{
@@ -257,14 +256,85 @@ header .banner_container .banner_content2 img{
 .Instagram .Instagram_container .Instagram_image_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 18px; 
-    place-items: center; 
+    gap: 15px; 
+    margin-bottom: 50px;
+  
+    
     
 }
 .Instagram .Instagram_container .Instagram_image_container img{
-    max-width: 256px;
-    min-height: 296px;
+    max-width: 250px;
+    min-height: 295px;
 }
+/* Latest Deals section styles  */
+.Latests_Deal{
+    width: 75%;
+    max-width:1080px;
+    min-height: 336px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: url('images/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    background-size: cover;
+    
+}
+.Latests_Deal .Latests_Deal_container .Latests_Deal_container_descryption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Latests_Deal .Latests_Deal_container .Latests_Deal_container_descryption h3{
+    color: #272727;
+    text-align: center;
+    font-size:35px;
+    font-weight: 800;
+    margin-top: 90px;
+
+}
+.Latests_Deal .Latests_Deal_container .Latests_Deal_container_descryption p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width:440px;
+    text-align: center; 
+    margin-bottom: 40px;
+}
+.Latests_Deal .Latests_Deal_container .Latests_Deal_container_subcribe-btn{
+    /* text-align: center; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+.Latests_Deal .Latests_Deal_container .Latests_Deal_container_subcribe-btn input{
+    max-width: 700px;
+    min-height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    padding: 20px 400px 20px 22px;
+    margin-right: 10px ;
+    
+}
+.Latests_Deal .Latests_Deal_container .Latests_Deal_container_subcribe-btn button{
+    padding: 20px 32px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+.Latests_Deal .Latests_Deal_container .Latests_Deal_container_subcribe-btn placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 
 
 
