@@ -61,6 +61,7 @@ header .banner_container .banner_content2 img{
 }
 .featured .container .container_heading{
     margin: 50px  auto;
+    
 }
 .featured .container .container_heading h3 {
     color: #272727;
@@ -75,7 +76,7 @@ header .banner_container .banner_content2 img{
     font-weight: 400;
     line-height: 30px;
     max-width:440px;
-    text-align: center;
+    text-align: center; 
     margin: 20px 0px 40px  0px;
     
 
@@ -275,6 +276,7 @@ header .banner_container .banner_content2 img{
     border-radius: 8px;
     background: url('images/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
     background-size: cover;
+    margin-bottom: 50px;
     
 }
 .Latests_Deal .Latests_Deal_container .Latests_Deal_container_descryption{
@@ -334,6 +336,45 @@ header .banner_container .banner_content2 img{
     font-size: 12px;
     font-weight: 400;
 }
+footer{
+    background: #111010;
+    max-width: 1440px;
+    min-height: 337px;
+    padding-top: 100px;
+}
+footer .footer_descryption{
+    margin: 0 auto;
+}
+footer .footer_descryption h3 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+     
+    
+}
+footer .footer_descryption h3 span{
+    color: #E55473;
+}
+footer .footer_descryption p {
+    max-width: 468px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px auto;
+    
+}
+footer .footer_descryption .last_pera {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 
 
 
